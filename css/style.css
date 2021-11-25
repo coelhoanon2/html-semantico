@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: cadetblue;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#initial_header{
+    background-color: cornflowerblue;
+}
+
+#main_items_menus{
+    display: flex;
+}
+
+.main_menu{
+    list-style: none;
+    width: 25%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    transition: 0.5s;
+    font-size: 1.5em;
+}
+
+.main_menu:hover{
+    background-color: red;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: initial;
+}
+
+main{
+    width: 1000px;
+    background-color: rgb(139, 193, 197);
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: 3%;
+    border-radius: 1%;
+    /* overflow: auto; */
+    display: inline-block;
+}
+
+article{
+    border-radius: 15px;
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: lavender;
+}
+
+section{
+
+}
+
+.post_header{
+    width: 100%;
+    display: inline-block;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.user_post_container{
+    background-color: black;
+}
+
+.post_profile_picture{
+    width: 80px;
+    height: 80px;
+    padding: 3%;
+    padding-bottom: 1.5%;
+    margin-bottom: 1.5%;
+    border-radius: 30px;
+    float: left;
+}
+
+.user_name_post{
+    float: left;
+    padding-top: 7%;
+    font-size: 1.5em;
+}
+
+hr{
+    border: 1px solid rgb(180, 175, 175);
+}
+
+.post_paragraph{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.post_image{
+    max-width: 98%;
+    margin-top: 3%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.footer_post{
+    width: 100%;
+    margin-top: 2%;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.socail_media_icons{
+    height: 45px;
+    width: 45px;
+    border: 2px solid rgb(138, 231, 211);
+    border-radius: 5px;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    background-color: rgb(181, 235, 223);
+    transition: 0.4s;
+}
+
+.socail_media_icons:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 6px #257970;
+    transition: 0.2s;
+}
